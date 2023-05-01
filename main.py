@@ -17,7 +17,7 @@ session = sessionmaker(bind=engine)
 s = session()
 
 # Подключаемя к боту через токен (в дальнейшем токен нужно переместить в переменную среды)
-bot = telebot.TeleBot('6085303347:AAFqz5NZcSOIEpoOWBfDIB6vfujW5hDvf38')
+bot = telebot.TeleBot('AAFqz5NZcSOIEpoOWBfjW5hDvf38')
 
 # Обработчик стартовой команды
 @bot.message_handler(commands=['start'])
